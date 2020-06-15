@@ -1,12 +1,43 @@
-
 /* Style sheet
    color picker www.w3schools.com/colors/colors_picker.asp
 */
 
 /* Bootstrap default font-family is Helvetica Neue */
 h1 {
-  font-family: "Times New Roman", Times, serif;
-  text-shadow: 3px 3px 1px black;
-  
+    font-family: "Times New Roman", Times, serif;
 }
+
+body {
+    background-image: url("../images/bike.jpg");
+    background-repeat: repeat;
+}
+
+.header {
+    margin: 0 auto;
+        display: flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.header-button:hover {
+    background-color: lightgrey;
+    color: #6c757d;
+}
+
+.service {
+  background-color: #dee2e6;
+    display: block;
+}
+
+.service > h2, .service > p {
+  color: black;
+}
+
+
+
 
